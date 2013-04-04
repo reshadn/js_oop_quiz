@@ -28,8 +28,8 @@ firstUser.changeEmail("reshadn@example.com");
 firstUser.saveScore(10);
 firstUser.saveScore(20);
 firstUser.saveScore(30);
-console.log(firstUser.showNameAndScores());
+firstUser.showNameAndScores();
 
 secondUser = new User("Noorzay", "noorzay@mailinator.com");
 secondUser.saveScore(13);
-console.log(secondUser.showNameAndScores());
+secondUser.showNameAndScores();
